@@ -30,15 +30,15 @@ Modul automatycznie generuje i wysyla ustrukturyzowane e-Faktury w formacie **FA
 
 ## Wymagania systemowe
 
-| Wymaganie | Minimum |
-|-----------|---------|
-| WHMCS | 8.x |
-| PHP | 7.4+ |
-| OpenSSL | >= 1.1.1 |
-| xmlsec1 | >= 1.2.31 |
-| shell_exec | wlaczone |
+| Wymaganie | Minimum                      |
+|-----------|------------------------------|
+| WHMCS | 8.x, 9.x                     |
+| PHP | 8.1, 8.2+                    |
+| OpenSSL | \>= 1.1.1                    |
+| xmlsec1 | \>= 1.2.31                   |
+| shell_exec | wlaczone                     |
 | Rozszerzenie PHP GD | wymagane (do generowania QR) |
-| Katalog tymczasowy | zapisywalny |
+| Katalog tymczasowy | zapisywalny                  |
 
 ---
 
