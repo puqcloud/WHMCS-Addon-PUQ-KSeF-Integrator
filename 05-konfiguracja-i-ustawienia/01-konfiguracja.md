@@ -49,6 +49,7 @@ W tej sekcji nalezy podac dane sprzedawcy, ktore beda umieszczone na kazdej e-Fa
 | Pole | Opis |
 |------|------|
 | **Tryb wysylki** | **Natychmiast po oplaceniu** — faktury sa automatycznie wysylane do KSeF zaraz po oplaceniu w WHMCS. **Reczny** — faktury sa zapisywane w kolejce ze statusem "oczekuje", administrator musi je wyslac recznie. |
+| **Pomijaj faktury AddFunds** | **Tak (pomijaj)** — faktury za doladowanie salda klienta (AddFunds) nie beda wysylane do KSeF. **Nie (wysylaj do KSeF)** — faktury AddFunds beda traktowane jak zwykle faktury sprzedazowe. Domyslnie: Tak. Doladowania salda nie sa rzeczywista sprzedaza towaru/uslugi, dlatego zazwyczaj nie powinny byc raportowane w KSeF. |
 | **Automatyczne ponowienie przy bledzie** | Wlaczony / Wylaczony. Gdy wlaczony, modul automatycznie podejmie probe ponownej wysylki w przypadku bledu. |
 | **Maks. liczba ponowien** | Maksymalna liczba prob ponownej wysylki (domyslnie: 3). |
 | **Zwolnienie z VAT** | **Nie (standardowy platnik VAT)** — firma rozlicza VAT normalnie. **Tak (firma zwolniona z VAT)** — wszystkie pozycje faktur beda mialy stawke ZW (zwolniony). |
